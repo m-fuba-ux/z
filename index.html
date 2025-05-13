@@ -52,26 +52,25 @@
                 height: 16px;
                 animation: spin 1s linear infinite;
                 display: inline-block;
-                margin: 0 4px;
+                margin-left: 8px;
                 vertical-align: middle;
             }
             @keyframes spin {
                 0% { transform: rotate(0deg); }
                 100% { transform: rotate(360deg); }
             }
-             /* Class to hide button text during loading */
-             .button-text-hidden {
-                 visibility: hidden;
-             }
+            /* New CSS class to hide button text */
+            .button-text-hidden {
+                visibility: hidden;
+            }
         </style>
     </head>
     <body class="bg-white text-gray-800">
-
         <header class="sticky top-0 z-50 bg-white shadow-md py-3 px-4 sm:px-6 lg:px-8">
             <nav class="container mx-auto flex justify-between items-center">
                 <div>
-                    <img src="https://placehold.co/150x40/FFFFFF/ca8a04?text=W.A.S.P+TECH" alt="W.A.S.P TECH Logo Placeholder" class="h-8 sm:h-10 w-auto rounded">
-                     </div>
+                    <img src="wasp-logo.png" alt="W.A.S.P TECH Logo" class="h-8 sm:h-10 w-auto rounded">
+                </div>
                 <div class="flex space-x-3 sm:space-x-4 text-sm sm:text-base">
                     <button id="lang-en" class="lang-button active text-yellow-600 hover:text-yellow-700 transition duration-150 ease-in-out" onclick="switchLanguage('en')">English</button>
                     <button id="lang-pt" class="lang-button text-yellow-600 hover:text-yellow-700 transition duration-150 ease-in-out" onclick="switchLanguage('pt')">Português</button>
@@ -79,7 +78,6 @@
                 </div>
             </nav>
         </header>
-
         <main class="container mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-12">
             <section id="hero" class="text-center py-16 sm:py-24 bg-gradient-to-b from-yellow-50 to-white rounded-lg shadow-sm mb-16 sm:mb-20" data-aos="fade-up">
                 <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-yellow-700 mb-4"
@@ -95,23 +93,19 @@
                    A Website Development Proposal by W.A.S.P TECH for Offshores Marine Service LDA
                 </p>
             </section>
-
             <div class="space-y-16 sm:space-y-20">
                 <section id="overview" class="p-6 sm:p-10 section-light rounded-lg shadow-md" data-aos="fade-right">
                     <h2 class="text-2xl sm:text-3xl font-semibold text-yellow-700 mb-5" data-lang-en="Project Overview" data-lang-pt="Visão Geral do Projeto" data-lang-fr="Aperçu du Projet">Project Overview</h2>
                     <p class="text-base sm:text-lg text-gray-700 leading-relaxed" data-lang-en="Redeveloping the Offshores Marine Service LDA website based on the modern, responsive design concept, enhancing user experience and functionality." data-lang-pt="Redesenvolver o website da Offshores Marine Service LDA com base no conceito de design moderno e responsivo, melhorando a experiência do utilizador e a funcionalidade." data-lang-fr="Redévelopper le site web d'Offshores Marine Service LDA en se basant sur le concept de design moderne et réactif, améliorant l'expérience utilisateur et la fonctionnalité.">Redeveloping the Offshores Marine Service LDA website based on the modern, responsive design concept, enhancing user experience and functionality.</p>
                 </section>
-
                 <section id="needs" class="p-6 sm:p-10 section-alt rounded-lg shadow-md" data-aos="fade-left">
                     <h2 class="text-2xl sm:text-3xl font-semibold text-yellow-700 mb-5" data-lang-en="Understanding Your Needs" data-lang-pt="Compreender as Suas Necessidades" data-lang-fr="Comprendre Vos Besoins">Understanding Your Needs</h2>
                     <p class="text-base sm:text-lg text-gray-700 leading-relaxed" data-lang-en="Establishing a leading-edge digital platform to showcase your comprehensive services, attract new clients effectively, and solidify your position in the maritime industry." data-lang-pt="Estabelecer uma plataforma digital de vanguarda para apresentar os seus serviços abrangentes, atrair novos clientes de forma eficaz e solidificar a sua posição na indústria marítima." data-lang-fr="Établir une plateforme numérique de pointe pour présenter vos services complets, attirer efficacement de nouveaux clients et consolider votre position dans l'industrie maritime.">Establishing a leading-edge digital platform to showcase your comprehensive services, attract new clients effectively, and solidify your position in the maritime industry.</p>
                 </section>
-
                 <section id="solution" class="p-6 sm:p-10 section-light rounded-lg shadow-md" data-aos="fade-right">
                     <h2 class="text-2xl sm:text-3xl font-semibold text-yellow-700 mb-5" data-lang-en="Our Proposed Solution" data-lang-pt="A Nossa Solução Proposta" data-lang-fr="Notre Solution Proposée">Our Proposed Solution</h2>
                     <p class="text-base sm:text-lg text-gray-700 leading-relaxed" data-lang-en="W.A.S.P TECH will develop the website based on the approved design, create email pipelines for lead capture, ensure full functionality across devices, integrate social media links, and provide seamless support for English, Portuguese, and French languages." data-lang-pt="A W.A.S.P TECH desenvolverá o website com base no design aprovado, criará pipelines de email para captura de leads, garantirá funcionalidade total em todos os dispositivos, integrará links de redes sociais e fornecerá suporte contínuo para os idiomas Inglês, Português e Francês." data-lang-fr="W.A.S.P TECH développera le site web basé sur le design approuvé, créera des pipelines d'e-mails pour la capture de prospects, assurera une fonctionnalité complète sur tous les appareils, intégrera les liens des médias sociaux et fournira un support transparent pour les langues Anglais, Portugais et Français.">W.A.S.P TECH will develop the website based on the approved design, create email pipelines for lead capture, ensure full functionality across devices, integrate social media links, and provide seamless support for English, Portuguese, and French languages.</p>
                 </section>
-
                 <section id="benefits" class="p-6 sm:p-10 section-alt rounded-lg shadow-md" data-aos="fade-left">
                     <h2 class="text-2xl sm:text-3xl font-semibold text-yellow-700 mb-5" data-lang-en="Key Benefits for OMS" data-lang-pt="Benefícios Chave para a OMS" data-lang-fr="Avantages Clés pour OMS">Key Benefits for OMS</h2>
                     <ul class="list-disc list-inside space-y-3 text-base sm:text-lg text-gray-700 leading-relaxed">
@@ -120,7 +114,6 @@
                         <li data-lang-en="Establishing your primary digital platform for enhanced market presence." data-lang-pt="O estabelecimento da sua principal plataforma digital para uma presença de mercado reforçada." data-lang-fr="L'établissement de votre plateforme numérique principale pour une présence renforcée sur le marché.">Establishing your primary digital platform for enhanced market presence.</li>
                     </ul>
                 </section>
-
                 <section id="scope" class="p-6 sm:p-10 section-light rounded-lg shadow-md" data-aos="fade-right">
                     <h2 class="text-2xl sm:text-3xl font-semibold text-yellow-700 mb-5" data-lang-en="Scope of Work & Deliverables" data-lang-pt="Âmbito do Trabalho e Entregáveis" data-lang-fr="Étendue des Travaux et Livrables">Scope of Work & Deliverables</h2>
                     <ul class="list-disc list-inside space-y-3 text-base sm:text-lg text-gray-700 leading-relaxed">
@@ -133,29 +126,24 @@
                         <li data-lang-en="Includes a 2-year warranty on development work." data-lang-pt="Inclui uma garantia de 2 anos no trabalho de desenvolvimento." data-lang-fr="Comprend une garantie de 2 ans sur les travaux de développement.">Includes a 2-year warranty on development work.</li>
                     </ul>
                 </section>
-
                 <section id="timeline" class="p-6 sm:p-10 section-alt rounded-lg shadow-md" data-aos="fade-left">
                     <h2 class="text-2xl sm:text-3xl font-semibold text-yellow-700 mb-5" data-lang-en="Project Timeline" data-lang-pt="Cronograma do Projeto" data-lang-fr="Calendrier du Projet">Project Timeline</h2>
                     <p class="text-base sm:text-lg text-gray-700 leading-relaxed" data-lang-en="Estimated completion within <strong>one (1) month</strong> from the date of the initial 50% payment confirmation." data-lang-pt="Conclusão estimada dentro de <strong>um (1) mês</strong> a partir da data de confirmação do pagamento inicial de 50%." data-lang-fr="Achèvement estimé dans un délai d'<strong>un (1) mois</strong> à compter de la date de confirmation du paiement initial de 50%.">Estimated completion within <strong>one (1) month</strong> from the date of the initial 50% payment confirmation.</p>
                 </section>
-
                 <section id="investment" class="p-6 sm:p-10 section-light rounded-lg shadow-md" data-aos="fade-right">
                     <h2 class="text-2xl sm:text-3xl font-semibold text-yellow-700 mb-5" data-lang-en="Investment" data-lang-pt="Investimento" data-lang-fr="Investissement">Investment</h2>
                     <p class="text-base sm:text-lg text-gray-700 mb-3 leading-relaxed" data-lang-en="Total project cost: <strong>€2000</strong>." data-lang-pt="Custo total do projeto: <strong>2000€</strong>." data-lang-fr="Coût total du projet : <strong>2000 €</strong>.">Total project cost: <strong>€2000</strong>.</p>
                     <p class="text-base sm:text-lg text-gray-700 leading-relaxed" data-lang-en="Payment terms: 50% upfront (€1000) to commence development, 50% (€1000) upon project completion and approval." data-lang-pt="Condições de pagamento: 50% adiantado (1000€) para iniciar o desenvolvimento, 50% (1000€) após a conclusão e aprovação do projeto." data-lang-fr="Conditions de paiement : 50 % d'acompte (1000 €) pour commencer le développement, 50 % (1000 €) à l'achèvement et à l'approbation du projet.">Payment terms: 50% upfront (€1000) to commence development, 50% (€1000) upon project completion and approval.</p>
                 </section>
-
                 <section id="maintenance" class="p-6 sm:p-10 section-alt rounded-lg shadow-md" data-aos="fade-left">
                     <h2 class="text-2xl sm:text-3xl font-semibold text-yellow-700 mb-5" data-lang-en="Optional Ongoing Maintenance & Support" data-lang-pt="Manutenção e Suporte Contínuo Opcional" data-lang-fr="Maintenance et Support Continus Optionnels">Optional Ongoing Maintenance & Support</h2>
                     <p class="text-base sm:text-lg text-gray-700 mb-4 leading-relaxed" data-lang-en="Ensure your website remains secure, up-to-date, and performs optimally with our optional annual maintenance package." data-lang-pt="Garanta que o seu website permanece seguro, atualizado e com desempenho ótimo com o nosso pacote de manutenção anual opcional." data-lang-fr="Assurez-vous que votre site web reste sécurisé, à jour et performe de manière optimale avec notre forfait de maintenance annuel optionnel.">Ensure your website remains secure, up-to-date, and performs optimally with our optional annual maintenance package.</p>
                     <p class="text-base sm:text-lg text-gray-700 mb-4 leading-relaxed" data-lang-en="<strong>Includes:</strong> Hosting, Cybersecurity, Website changes as needed, Reduced prices for major changes." data-lang-pt="<strong>Inclui:</strong> Alojamento, Cibersegurança, Alterações ao website conforme necessário, Preços reduzidos para grandes alterações." data-lang-fr="<strong>Comprend :</strong> Hébergement, Cybersécurité, Modifications du site web selon les besoins, Prix réduits pour les modifications majeures."><strong>Includes:</strong> Hosting, Cybersecurity, Website changes as needed, Reduced prices for major changes.</p>
                     <p class="text-base sm:text-lg text-gray-700 leading-relaxed" data-lang-en="<strong>Cost:</strong> €2000 per year (billed €500 quarterly)." data-lang-pt="<strong>Custo:</strong> 2000€ por ano (faturado 500€ trimestralmente)." data-lang-fr="<strong>Coût :</strong> 2000 € par an (facturé 500 € trimestriellement)."><strong>Cost:</strong> €2000 per year (billed €500 quarterly).</p>
                 </section>
-
                 <section id="review" class="p-6 sm:p-10 section-light rounded-lg shadow-md" data-aos="fade-up">
                     <h2 class="text-2xl sm:text-3xl font-semibold text-yellow-700 mb-5" data-lang-en="Review the New Design" data-lang-pt="Reveja o Novo Design" data-lang-fr="Examinez le Nouveau Design">Review the New Design</h2>
                     <p class="text-base sm:text-lg text-gray-700 mb-8 leading-relaxed" data-lang-en="Please review the key pages of the proposed website design linked below. Provide your feedback in the corresponding text boxes. Once finished, click 'Submit All Feedback'." data-lang-pt="Por favor, reveja as páginas chave do design proposto para o website nos links abaixo. Forneça o seu feedback nas caixas de texto correspondentes. Quando terminar, clique em 'Submeter Todo o Feedback'." data-lang-fr="Veuillez examiner les pages clés du design de site web proposé via les liens ci-dessous. Fournissez vos commentaires dans les zones de texte correspondantes. Une fois terminé, cliquez sur 'Soumettre Tous les Commentaires'.">Please review the key pages of the proposed website design linked below. Provide your feedback in the corresponding text boxes. Once finished, click 'Submit All Feedback'.</p>
-
                     <form id="review-form" class="space-y-8">
                         <input type="hidden" name="formType" value="review">
                         <div class="review-item">
@@ -190,25 +178,22 @@
                         </div>
                         <div class="text-center pt-4">
                             <button type="submit" id="submit-review-btn" class="inline-flex justify-center items-center py-3 px-8 border border-transparent shadow-sm text-base font-medium rounded-md text-black bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-300 transition duration-150 ease-in-out">
-                                <span data-lang-en="Submit All Feedback" data-lang-pt="Submeter Todo o Feedback" data-lang-fr="Soumettre Tous les Commentaires">Submit All Feedback</span>
+                                <span class="button-text-content" data-lang-en="Submit All Feedback" data-lang-pt="Submeter Todo o Feedback" data-lang-fr="Soumettre Tous les Commentaires">Submit All Feedback</span>
                                 <span class="loader hidden"></span>
                             </button>
                         </div>
                     </form>
                     <p id="review-confirmation" class="mt-6 text-center font-medium hidden"></p>
                 </section>
-
                 <section id="about-wasp" class="p-6 sm:p-10 section-alt rounded-lg shadow-md" data-aos="fade-right">
                     <h2 class="text-2xl sm:text-3xl font-semibold text-yellow-700 mb-5" data-lang-en="About W.A.S.P TECH" data-lang-pt="Sobre a W.A.S.P TECH" data-lang-fr="À Propos de W.A.S.P TECH">About W.A.S.P TECH</h2>
                     <p class="text-base sm:text-lg text-gray-700 leading-relaxed" data-lang-en="We are a new, dynamic company passionate about helping businesses like yours build strong digital brands and enhance credibility. We leverage a network of highly qualified partners and are excited by the opportunity to collaborate with Offshores Marine Service LDA." data-lang-pt="Somos uma empresa nova e dinâmica, apaixonada por ajudar empresas como a sua a construir marcas digitais fortes e a aumentar a credibilidade. Contamos com uma rede de parceiros highly qualificados e estamos entusiasmados com a oportunidade de colaborar com a Offshores Marine Service LDA." data-lang-fr="Nous sommes une nouvelle entreprise dynamique, passionnée par l'aide aux entreprises comme la vôtre pour construire des marques numériques fortes et améliorer leur crédibilité. Nous nous appuyons sur un réseau de partenaires hautement qualifiés et sommes enthousiasmés par l'opportunité de collaborer avec Offshores Marine Service LDA.">We are a new, dynamic company passionate about helping businesses like yours build strong digital brands and enhance credibility. We leverage a network of highly qualified partners and are excited by the opportunity to collaborate with Offshores Marine Service LDA.</p>
                 </section>
-
                 <section id="next-steps" class="p-6 sm:p-10 section-light rounded-lg shadow-md" data-aos="fade-up">
                     <h2 class="text-2xl sm:text-3xl font-semibold text-yellow-700 mb-5" data-lang-en="Next Steps & Acceptance" data-lang-pt="Próximos Passos e Aceitação" data-lang-fr="Prochaines Étapes et Acceptation">Next Steps & Acceptance</h2>
                     <p class="text-base sm:text-lg text-gray-700 mb-8 leading-relaxed" data-lang-en="Ready to proceed or have questions? Please use the form below to get in touch or signal your acceptance of this proposal. We look forward to partnering with you!" data-lang-pt="Pronto para avançar ou tem perguntas? Por favor, use o formulário abaixo para entrar em contacto ou sinalizar a sua aceitação desta proposta. Estamos ansiosos por ser o seu parceiro!" data-lang-fr="Prêt à continuer ou avez-vous des questions ? Veuillez utiliser le formulaire ci-dessous pour nous contacter ou signifier votre acceptation de cette proposition. Nous sommes impatients de collaborer avec vous !">Ready to proceed or have questions? Please use the form below to get in touch or signal your acceptance of this proposal. We look forward to partnering with you!</p>
-
                     <form id="contact-form" class="space-y-6">
-                        <input type="hidden" name="formType" value="contact">
+                         <input type="hidden" name="formType" value="contact">
                         <div>
                             <label for="contact-name" class="block text-sm font-medium text-gray-800" data-lang-en="Your Name" data-lang-pt="O Seu Nome" data-lang-fr="Votre Nom">Your Name</label>
                             <input type="text" id="contact-name" name="Your Name" required class="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-yellow-400 focus:border-yellow-400 bg-white text-gray-900 placeholder-gray-500">
@@ -223,11 +208,11 @@
                         </div>
                         <div class="flex flex-col sm:flex-row sm:items-center sm:space-x-4 space-y-3 sm:space-y-0 pt-4">
                             <button type="submit" name="action" value="message" id="submit-message-btn" class="w-full sm:w-auto inline-flex justify-center items-center py-2.5 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-gray-800 hover:bg-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 transition duration-150 ease-in-out">
-                                <span data-lang-en="Send Message" data-lang-pt="Enviar Mensagem" data-lang-fr="Envoyer Message">Send Message</span>
+                                <span class="button-text-content" data-lang-en="Send Message" data-lang-pt="Enviar Mensagem" data-lang-fr="Envoyer Message">Send Message</span>
                                 <span class="loader hidden"></span>
                             </button>
                             <button type="submit" name="action" value="accept" id="submit-accept-btn" class="w-full sm:w-auto inline-flex justify-center items-center py-2.5 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-black bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-300 transition duration-150 ease-in-out">
-                                <span data-lang-en="Accept Proposal" data-lang-pt="Aceitar Proposta" data-lang-fr="Accepter la Proposition">Accept Proposal</span>
+                                <span class="button-text-content" data-lang-en="Accept Proposal" data-lang-pt="Aceitar Proposta" data-lang-fr="Accepter la Proposition">Accept Proposal</span>
                                 <span class="loader hidden"></span>
                             </button>
                         </div>
@@ -236,18 +221,16 @@
                 </section>
             </div>
         </main>
-
         <footer class="bg-yellow-50 text-gray-600 py-8 mt-16 sm:mt-20">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
                 <p data-lang-en="Proposal prepared for Offshores Marine Service LDA by W.A.S.P TECH." data-lang-pt="Proposta preparada para a Offshores Marine Service LDA pela W.A.S.P TECH." data-lang-fr="Proposition préparée pour Offshores Marine Service LDA par W.A.S.P TECH.">Proposal prepared for Offshores Marine Service LDA by W.A.S.P TECH.</p>
                 <p class="mt-1">&copy; <span id="current-year"></span> W.A.S.P TECH. All rights reserved.</p>
             </div>
         </footer>
-
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
             // --- Configuration ---
-            const APPS_SCRIPT_URL = 'YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE'; // Make sure this is updated after redeploying the script
+            const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx90EXXDocbCmE2g5z7HxgHB3HKNk1u3ao00S16MUXJc8Pry6WRC-mN8-xFfWPpW7aa/exec';
             // --- End Configuration ---
 
             const defaultLang = 'en';
@@ -261,10 +244,11 @@
                 document.querySelectorAll('[data-lang-en], [data-lang-pt], [data-lang-fr]').forEach(el => {
                     const text = el.getAttribute(`data-lang-${lang}`) || el.getAttribute(`data-lang-${defaultLang}`);
                     if (text !== null) {
-                        const textSpan = Array.from(el.childNodes).find(node => node.nodeType === Node.ELEMENT_NODE && node.tagName === 'SPAN' && !node.classList.contains('loader'));
+                        // Target the specific text span within buttons
+                        const textSpan = el.querySelector('span.button-text-content');
                         if (textSpan && el.tagName === 'BUTTON') {
                              textSpan.innerHTML = text;
-                        } else if (el.tagName !== 'SPAN' || !el.classList.contains('loader')) {
+                        } else if (el.tagName !== 'SPAN' || !el.classList.contains('loader')) { // For other elements or non-loader spans
                              el.innerHTML = text;
                         }
                     }
@@ -291,11 +275,10 @@
                  if (titleText) {
                      document.title = titleText;
                  }
-
-                AOS.refresh();
+                AOS.refresh(); // Refresh AOS animations after language switch
             }
 
-            // --- Form Submission Handling (Unified for Google Apps Script) ---
+            // --- Form Submission Handling (Unified for Form Submission) ---
             function handleFormSubmit(formId, confirmationElementId, submitButtonIds) {
                 const form = document.getElementById(formId);
                 const confirmationElement = document.getElementById(confirmationElementId);
@@ -313,9 +296,9 @@
                         let buttonTextSpan = null;
                         if (clickedButton) {
                             loader = clickedButton.querySelector('.loader');
-                            buttonTextSpan = clickedButton.querySelector('span:not(.loader)'); // Find the text span
+                            buttonTextSpan = clickedButton.querySelector('.button-text-content'); // Target specific class
 
-                            if (loader) loader.classList.remove('hidden'); // Show loader
+                            if (loader) loader.classList.remove('hidden');
                             if (buttonTextSpan) buttonTextSpan.classList.add('button-text-hidden'); // Hide text
                             clickedButton.disabled = true;
                             submitButtons.forEach(btn => { if (btn !== clickedButton) btn.disabled = true; });
@@ -331,26 +314,21 @@
                         if (action) { data.action = action; }
                         data.submittedLanguage = currentLang;
 
-                        // ***** Reverted FETCH CALL to simpler version *****
                         fetch(APPS_SCRIPT_URL, {
                             method: 'POST',
-                            headers: { 'Content-Type': 'text/plain;charset=utf-8', }, // Keep sending as text
+                            headers: { 'Content-Type': 'text/plain;charset=utf-8', }, // Kept as per working version
                             body: JSON.stringify(data),
                         })
                         .then(response => {
-                             // Check if response is ok (status in the range 200-299)
                              if (!response.ok) {
-                                 // If not ok, read the response text to include in the error
                                  return response.text().then(text => {
                                      throw new Error(`Network response was not ok. Status: ${response.status}. Message: ${text}`);
                                  });
                              }
-                             // If ok, assume JSON response as expected from our Apps Script
-                             return response.json();
+                             return response.json(); // Expecting JSON from Apps Script
                          })
                         .then(result => {
-                            console.log('Apps Script Response:', result);
-                            // Check the result structure from Apps Script
+                            console.log('Form Submission Response:', result);
                             if (result && result.status === 'success') {
                                 const successMessages = {
                                     review: { en: "Thank you! Your feedback has been submitted successfully.", pt: "Obrigado! O seu feedback foi enviado com sucesso.", fr: "Merci ! Vos commentaires ont été soumis avec succès." },
@@ -362,7 +340,6 @@
                                 confirmationElement.classList.add('text-yellow-600');
                                 form.reset();
                             } else {
-                                // If status is not success or result is unexpected
                                 throw new Error(result.message || 'Submission failed. Unexpected response from server.');
                             }
                         })
@@ -379,7 +356,7 @@
                         .finally(() => {
                             // --- Button State Reset START ---
                              if (clickedButton) {
-                                if (loader) loader.classList.add('hidden'); // Hide loader
+                                if (loader) loader.classList.add('hidden');
                                 if (buttonTextSpan) buttonTextSpan.classList.remove('button-text-hidden'); // Show text
                                 clickedButton.disabled = false;
                              }
@@ -403,20 +380,18 @@
             AOS.init({
                 duration: 800,
                 easing: 'ease-in-out',
-                once: true,
-                mirror: false,
-                anchorPlacement: 'top-bottom',
+                once: true, // Animation happens only once
+                mirror: false, // Elements don't animate out while scrolling past them
+                anchorPlacement: 'top-bottom', // Defines which position of the element regarding to window should trigger the animation
             });
 
             // --- Initial Language Setup ---
             window.onload = () => {
-                 setTimeout(() => {
+                 setTimeout(() => { // Timeout ensures DOM is fully ready
                      switchLanguage(defaultLang);
                  }, 0);
             };
 
         </script>
-
     </body>
     </html>
-    
