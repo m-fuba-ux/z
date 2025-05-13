@@ -1,0 +1,4 @@
+Project scope - We need to explain the reason, the in the form the client will be able to select the products and services they need and add a message to OMS then this will be organised into an email and sent to an email of OMS choice, most likely their sales department
+Project timeline - We will complete the project a month after OMS gives us any content necessary and completes the payment
+The warranty - it is a 6 month warranty which afterward they can pay 500 euros per quarter of the year for the maintanance 
+Update only these changes to the content, do not change any of the code
